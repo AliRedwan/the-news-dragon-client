@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import LeftNews from "../../Home/Home/LeftNews/LeftNews";
 
 const LeftNav = () => {
   const [categories, setCategories] = useState([]);
@@ -19,6 +20,7 @@ const LeftNav = () => {
           </p>
         ))}
       </div>
+      <LeftNews/>
     </div>
   );
 };
